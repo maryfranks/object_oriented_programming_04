@@ -7,8 +7,8 @@ class System
     @@bodies
   end
 
-  def add
-    @@bodies << Body.new
+  def add(variable)
+    @@bodies << variable
     return @@bodies.last
   end
 
